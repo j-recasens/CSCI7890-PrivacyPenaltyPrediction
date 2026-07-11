@@ -1,3 +1,5 @@
 .DS_Store
 .ipynb_checkpoints/
 enforcement_tracker_raw.csv
+data/raw/*
+!data/raw/ftc_rafal_cases.json
