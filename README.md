@@ -12,12 +12,13 @@ Paper repo (Overleaf-synced): https://github.com/j-recasens/CSCI7890-GDPR-Resear
 
 ## Start here (new researcher)
 
-1. Read the paper draft (`Main.tex` in the paper repo) — it documents every decision.
-2. The dataset is `data/unified_cases.csv` (2,754 rows). Built by nb09, enriched by nb11.
-3. All ML results in the paper come from `notebooks/12_baselines_unified.ipynb`.
-4. Every notebook has a header cell stating its purpose, inputs, outputs, and gotchas.
+1. Read `HANDOFF.md` — a candid AI-generated summary of how the project unfolded, decisions made, known traps, and open tasks with effort estimates.
+2. Read the paper draft (`Main.tex` in the paper repo) — it documents every decision.
+3. The dataset is `data/unified_cases.csv` (2,754 rows). Built by nb09, enriched by nb11.
+4. All ML results in the paper come from `notebooks/12_baselines_unified.ipynb`.
+5. Every notebook has a header cell stating its purpose, inputs, outputs, and gotchas.
    nb09 and nb11 headers carry **rerun-order warnings** — read them before rerunning anything.
-5. The main open task is Legal-BERT fine-tuning on the unified corpus (needs GPU/Colab).
+6. The main open task is Legal-BERT fine-tuning on the unified corpus (needs GPU/Colab).
    Working starter code for embeddings and 512-token truncation is in nb05.
 
 ## Pipeline
