@@ -52,6 +52,7 @@ nb05 (US-only baselines; kept for its Legal-BERT starter code), nb10 (label refe
 | `data/enforcement_tracker_clean.csv` | 3,195 EU fines, metadata only (sector join source) |
 | `data/ftc...csv` (others) | Intermediate files, see notebook headers |
 | `literature/papers/` | Ruohonen & Hjerppe (2020), Orlando & Santoro (2025) PDFs |
+| `literature/scope-doc-annotated-2026-07-29.pdf` | The project scope doc with all annotation rounds (green = advisor, red/purple = researcher iterations, blue = final status). The living version is on the researcher's OneDrive |
 
 ## Headline results (nb12, TF-IDF + logistic regression)
 | Task | In-dist | EU→US | US→EU |
